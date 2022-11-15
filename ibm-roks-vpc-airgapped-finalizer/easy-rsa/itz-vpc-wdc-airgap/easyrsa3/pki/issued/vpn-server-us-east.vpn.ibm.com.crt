@@ -1,0 +1,88 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            fb:84:9d:e0:cd:f3:f8:36:d4:d2:af:ae:2f:96:c1:54
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=itz-vpc-wdc-airgap
+        Validity
+            Not Before: Dec 16 18:46:55 2021 GMT
+            Not After : Mar 20 18:46:55 2024 GMT
+        Subject: CN=vpn-server-us-east.vpn.ibm.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c7:78:8c:ac:4a:05:50:36:6d:f9:93:e0:34:42:
+                    27:cb:2b:c7:61:02:3d:c3:c2:40:86:28:bf:d4:3d:
+                    c7:62:ef:ff:ef:25:fe:4d:06:1e:27:18:d2:70:f3:
+                    d8:36:76:9b:10:f9:6c:83:ea:68:52:1b:03:56:f5:
+                    30:b0:b8:8f:5d:ba:c3:a9:cd:36:16:c1:1a:89:bd:
+                    d0:a9:98:c4:ba:12:1c:b0:5e:bf:80:da:aa:3d:c4:
+                    7b:bf:d4:ed:ea:0e:d0:26:1e:7c:1c:db:df:79:82:
+                    c6:5e:2f:27:7a:29:13:ab:e9:60:a4:40:9c:34:a3:
+                    c8:a9:94:68:a3:72:66:56:64:9a:77:2a:e0:ff:c2:
+                    5f:04:7b:0e:dd:df:0d:0a:18:38:7d:6b:c0:6d:a7:
+                    59:f0:1c:25:a9:06:d2:f9:b7:f9:b7:4d:3d:83:57:
+                    88:15:ab:62:cc:f5:44:52:d6:58:b5:35:39:19:d3:
+                    a2:b7:7a:83:ba:1f:28:c9:80:c1:76:e5:26:da:fe:
+                    0e:03:07:91:6e:61:7a:c6:5b:dd:c1:a1:5d:02:46:
+                    d3:3d:51:19:e3:67:6b:e7:d1:1c:ef:b9:49:4d:d4:
+                    19:d0:7d:c0:b2:9a:11:ce:a0:d7:cb:bd:75:7b:aa:
+                    51:d4:0f:8b:bd:07:39:12:69:a1:81:ce:0d:f1:73:
+                    c7:15
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                48:26:68:C9:AE:FA:D2:52:09:7C:52:16:82:6D:EF:CA:F3:3F:BA:07
+            X509v3 Authority Key Identifier: 
+                keyid:5B:FA:CD:B6:9D:9C:D7:86:61:2E:98:2F:76:3A:16:86:D2:72:0F:9C
+                DirName:/CN=itz-vpc-wdc-airgap
+                serial:CA:E1:88:6F:FF:4F:D4:ED
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:vpn-server-us-east.vpn.ibm.com
+    Signature Algorithm: sha256WithRSAEncryption
+         2e:9d:b0:f6:e8:4b:c6:38:ab:ec:b2:04:ba:23:22:52:c8:f3:
+         c4:3a:7f:0d:2e:56:e4:52:83:43:57:35:fb:48:0a:40:41:e8:
+         81:f2:a1:0c:2d:bd:00:16:32:cc:2c:7c:43:3f:60:35:2f:5a:
+         e2:22:c2:93:26:50:ad:41:ec:21:b0:4a:62:ff:6d:b8:90:3a:
+         32:43:8e:74:f9:96:f3:24:13:9a:e3:1e:38:4a:cf:53:d1:de:
+         ac:fb:96:f4:d4:8e:62:09:d9:84:3b:39:c8:2d:4f:c0:a8:38:
+         9f:77:b4:90:96:e2:5f:d8:ba:ab:17:b9:c9:1f:e6:57:18:00:
+         61:2e:97:69:d8:b1:6b:31:08:c7:ba:05:c4:40:45:b9:1a:3a:
+         2f:d9:1e:7f:c4:ff:5c:a4:aa:88:a8:ff:8b:11:de:11:6f:62:
+         c2:fa:42:fc:f8:ad:bf:6d:81:c0:40:90:cd:96:d0:5f:1a:3c:
+         d8:de:45:29:ae:0d:4e:a2:66:81:06:64:7e:93:58:92:b0:12:
+         69:c2:f3:90:ef:6a:28:18:35:d1:c4:63:72:cf:4f:03:b4:c0:
+         0c:15:a2:8f:2d:09:f0:6b:84:83:16:44:16:e6:d5:21:a6:25:
+         0c:30:b5:24:dc:41:38:46:fc:17:a6:9c:7c:3f:63:d2:e2:03:
+         d3:00:29:d6
+-----BEGIN CERTIFICATE-----
+MIIDmzCCAoOgAwIBAgIRAPuEneDN8/g21NKvri+WwVQwDQYJKoZIhvcNAQELBQAw
+HTEbMBkGA1UEAwwSaXR6LXZwYy13ZGMtYWlyZ2FwMB4XDTIxMTIxNjE4NDY1NVoX
+DTI0MDMyMDE4NDY1NVowKTEnMCUGA1UEAwwednBuLXNlcnZlci11cy1lYXN0LnZw
+bi5pYm0uY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx3iMrEoF
+UDZt+ZPgNEInyyvHYQI9w8JAhii/1D3HYu//7yX+TQYeJxjScPPYNnabEPlsg+po
+UhsDVvUwsLiPXbrDqc02FsEaib3QqZjEuhIcsF6/gNqqPcR7v9Tt6g7QJh58HNvf
+eYLGXi8neikTq+lgpECcNKPIqZRoo3JmVmSadyrg/8JfBHsO3d8NChg4fWvAbadZ
+8BwlqQbS+bf5t009g1eIFatizPVEUtZYtTU5GdOit3qDuh8oyYDBduUm2v4OAweR
+bmF6xlvdwaFdAkbTPVEZ42dr59Ec77lJTdQZ0H3AspoRzqDXy711e6pR1A+LvQc5
+Emmhgc4N8XPHFQIDAQABo4HJMIHGMAkGA1UdEwQCMAAwHQYDVR0OBBYEFEgmaMmu
++tJSCXxSFoJt78rzP7oHME0GA1UdIwRGMESAFFv6zbadnNeGYS6YL3Y6FobScg+c
+oSGkHzAdMRswGQYDVQQDDBJpdHotdnBjLXdkYy1haXJnYXCCCQDK4Yhv/0/U7TAT
+BgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwKQYDVR0RBCIwIIIednBu
+LXNlcnZlci11cy1lYXN0LnZwbi5pYm0uY29tMA0GCSqGSIb3DQEBCwUAA4IBAQAu
+nbD26EvGOKvssgS6IyJSyPPEOn8NLlbkUoNDVzX7SApAQeiB8qEMLb0AFjLMLHxD
+P2A1L1riIsKTJlCtQewhsEpi/224kDoyQ450+ZbzJBOa4x44Ss9T0d6s+5b01I5i
+CdmEOznILU/AqDifd7SQluJf2LqrF7nJH+ZXGABhLpdp2LFrMQjHugXEQEW5Gjov
+2R5/xP9cpKqIqP+LEd4Rb2LC+kL8+K2/bYHAQJDNltBfGjzY3kUprg1OomaBBmR+
+k1iSsBJpwvOQ72ooGDXRxGNyz08DtMAMFaKPLQnwa4SDFkQW5tUhpiUMMLUk3EE4
+RvwXppx8P2PS4gPTACnW
+-----END CERTIFICATE-----
